@@ -1,4 +1,4 @@
-# 🧠 Goohacka — Antigravity AI Brain Game
+# 🧠 Greysword — Antigravity AI Brain Game
 
 > **Hackathon Submission** | Unity 3D Zombie Survival with Real-Time Adaptive AI Difficulty Engine
 
@@ -6,7 +6,7 @@
 
 ## 🎮 What Is This?
 
-**Goohacka** is a third-person zombie survival game built in Unity where the game actively **thinks about you** as you play. The **Antigravity Brain** — a Python-powered AI server — observes your behavior in real-time and dynamically adapts the game's difficulty to keep you in the perfect flow state: not bored, not frustrated.
+**Greysword** is a third-person zombie survival game built in Unity where the game actively **thinks about you** as you play. The **Antigravity Brain** — a Python-powered AI server — observes your behavior in real-time and dynamically adapts the game's difficulty to keep you in the perfect flow state: not bored, not frustrated.
 
 No two playthroughs feel the same. The AI is always watching.
 
@@ -102,7 +102,7 @@ All decisions pass through a safety validator before being applied:
 ### Step 1 — Start the Antigravity Brain Server
 ```bash
 # Navigate to the project root
-cd path/to/goohacka
+cd path/to/Greysword
 
 # Start the AI server (runs on port 8080)
 python antigravity_brain_server.py
@@ -150,7 +150,7 @@ The game automatically connects to `http://localhost:8080`.
 ## 📦 Project Structure
 
 ```
-goohacka/
+Greysword/
 ├── Assets/
 │   ├── scripts/          # All C# game scripts
 │   ├── Editor/           # Unity Editor automation tools
