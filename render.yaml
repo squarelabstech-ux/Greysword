@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: greysword-brain
+    env: python
+    buildCommand: ""
+    startCommand: "python antigravity_brain_server.py"
+    plan: free
+    envVars:
+      - key: PORT
+        value: 8080
